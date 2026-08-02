@@ -1,0 +1,38 @@
+{
+  "buckets": {},
+  "services": {
+    "e00e03fa-5de2-4c51-923f-3bcef2a815e0": {
+      "icon": "https://raw.githubusercontent.com/Cockpit-HQ/Cockpit/master/favicon.png",
+      "name": "cockpit",
+      "deploy": {
+        "startCommand": null,
+        "healthcheckPath": "/auth/login",
+        "restartPolicyType": "ON_FAILURE",
+        "restartPolicyMaxRetries": 10
+      },
+      "source": {
+        "repo": "https://github.com/nomideusz/cockpit-railway",
+        "rootDirectory": null
+      },
+      "variables": {
+        "PORT": {
+          "isOptional": false,
+          "description": "Port for Railway healthcheck probing. Do not change.",
+          "defaultValue": "80"
+        }
+      },
+      "networking": {
+        "serviceDomains": {
+          "<hasDomain>:80": {
+            "port": 80
+          }
+        }
+      },
+      "volumeMounts": {
+        "e00e03fa-5de2-4c51-923f-3bcef2a815e0": {
+          "mountPath": "/var/www/html/storage"
+        }
+      }
+    }
+  }
+}
