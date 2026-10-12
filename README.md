@@ -1,6 +1,6 @@
 # Deploy and Host Cockpit CMS on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/cockpit?utm_medium=integration&utm_source=button&utm_campaign=cockpit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/cockpit?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=cockpit)
 
 [Cockpit](https://getcockpit.com/) is a self-hosted headless CMS — an API-first content platform that has been around for two decades. Model your content (collections, singletons, trees), manage it in a clean admin UI, and consume it from any frontend via REST or GraphQL. Assets, image presets, roles and permissions, localization, and webhooks are all built in.
 
