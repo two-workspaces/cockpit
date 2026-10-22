@@ -1,0 +1,8 @@
+{
+  "id": "b065d7eb-7963-423e-a363-88e651f511ea",
+  "name": "Cockpit | Headless CMS with REST & GraphQL",
+  "description": "API-first headless CMS with REST & GraphQL, admin UI, SQLite \u2014 one service.",
+  "category": "CMS",
+  "image": "https://raw.githubusercontent.com/Cockpit-HQ/Cockpit/master/favicon.png",
+  "published": true
+}

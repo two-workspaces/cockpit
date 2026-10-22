@@ -22,11 +22,11 @@ This template runs Cockpit Core (free, open source) as a single Railway service 
 
 - [Cockpit documentation](https://getcockpit.com/documentation/core)
 - [Cockpit API reference](https://getcockpit.com/documentation/core/api/endpoints)
-- [Template source on GitHub](https://github.com/nomideusz/cockpit-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/cockpit)
 
 ### Implementation Details
 
-**First boot — important:** open `https://<your-domain>/install` once. This creates the `admin` account and shows a **generated password on that page only** — save it before navigating away. Afterwards log in at `/auth/login`.
+**First boot — important:** open `https://YOUR-DOMAIN/install` once. This creates the `admin` account and shows a **generated password on that page only** — save it before navigating away. Afterwards log in at `/auth/login`.
 
 **Content API:** create an API key under Settings → Api & Security, then fetch content at `/api/content/items/{model}` (REST) or `/api/graphql` (GraphQL).
 
