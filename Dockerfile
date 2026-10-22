@@ -8,3 +8,6 @@ RUN { \
   echo 'post_max_size = 128M'; \
   echo 'memory_limit = 256M'; \
 } > /usr/local/etc/php/conf.d/uploads.ini
+
+# Per-install JWT key instead of upstream's shared default (see config.php).
+COPY config/config.php /var/www/html/config/config.php
