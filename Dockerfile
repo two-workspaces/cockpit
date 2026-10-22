@@ -1,4 +1,4 @@
-FROM cockpithq/cockpit:core-2.14.0
+FROM cockpithq/cockpit:core-2.14.1
 
 # CMS-friendly upload limits (php defaults are 2M). Everything runs as root
 # on FrankenPHP, so the Railway volume at /var/www/html/storage needs no chown;
