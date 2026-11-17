@@ -21,7 +21,7 @@ This template runs Cockpit Core (free, open source) as a single Railway service 
 ### Deployment Dependencies
 
 - [Cockpit documentation](https://getcockpit.com/documentation/core)
-- [Cockpit API reference](https://getcockpit.com/documentation/core/api/endpoints)
+- [Cockpit API reference](https://getcockpit.com/documentation/core/api/introduction)
 - [Template source on GitHub](https://github.com/two-workspaces/cockpit)
 
 ### Implementation Details
